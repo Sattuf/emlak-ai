@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 Varsayılan Excel yolu:
 
-`C:\Users\sattuf\Desktop\Veri_Madenciligi_Master_Dataset.xlsx`
+`data/Veri_Madenciligi_Master_Dataset.xlsx` (proje köküne göre)
 
 Farklı bir dosya için ortam değişkeni veya parametre kullanın:
 

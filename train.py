@@ -54,7 +54,7 @@ def _excel_path() -> Path:
     return Path(
         os.environ.get(
             "EXCEL_PATH",
-            r"C:\Users\sattuf\Desktop\Veri_Madenciligi_Master1.xlsx",
+            str(Path(__file__).resolve().parent / "data" / "Veri_Madenciligi_Master_Dataset.xlsx"),
         )
     )
 
